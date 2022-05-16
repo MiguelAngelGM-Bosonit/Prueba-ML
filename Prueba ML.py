@@ -14,3 +14,4 @@ def load_and_select_data():
     return(data_df)
 
 Empleados = load_and_select_data()
+print(Empleados.columns)
